@@ -14,7 +14,7 @@ public class Program
 
         builder.Services.AddDbContext<MyDBContext>(options =>
         {
-            options.UseSqlite(@"Data source=C:\Users\farit\OneDrive\Документы\GitHub\WebApp\WebApp\database.txt");
+            options.UseSqlite(@"Data source=C:\Users\farit\OneDrive\Документы\GitHub\WebApp\WebApp\database.");
         });
 
         var app = builder.Build();
