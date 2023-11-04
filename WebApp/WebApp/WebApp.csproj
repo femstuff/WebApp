@@ -11,10 +11,12 @@
   <ItemGroup>
     <None Remove="Views\Test\" />
     <None Remove="DataModels\" />
+    <None Remove="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Test\" />
     <Folder Include="DataModels\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">

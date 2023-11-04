@@ -2,8 +2,8 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-wrkb45jn1q] {
-  white-space: normal;
-  text-align: center;
+  white-space: unset;
+  text-align: left;
   word-break: break-all;
 }
 
