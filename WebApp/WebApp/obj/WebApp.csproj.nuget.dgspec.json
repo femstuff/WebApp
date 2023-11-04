@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/WebApp.csproj": {}
+    "C:\\Users\\farit\\OneDrive\\Документы\\GitHub\\WebApp\\WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/WebApp.csproj": {
+    "C:\\Users\\farit\\OneDrive\\Документы\\GitHub\\WebApp\\WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\farit\\OneDrive\\Документы\\GitHub\\WebApp\\WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/WebApp.csproj",
-        "packagesPath": "/Users/tihonsavenkov/.nuget/packages/",
-        "outputPath": "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/obj/",
+        "projectPath": "C:\\Users\\farit\\OneDrive\\Документы\\GitHub\\WebApp\\WebApp\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\farit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\farit\\OneDrive\\Документы\\GitHub\\WebApp\\WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tihonsavenkov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\farit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +56,10 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -79,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
