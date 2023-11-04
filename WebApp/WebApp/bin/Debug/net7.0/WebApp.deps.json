@@ -9,7 +9,9 @@
       "WebApp/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
-          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.13",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "WebApp.dll": {}
@@ -103,6 +105,11 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.13"
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -164,6 +171,14 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
@@ -406,6 +421,13 @@
       "path": "microsoft.entityframeworkcore.sqlite.core/7.0.13",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z2edRVeoCqvWdNNHHoqbiNhRBetXfh/GBAga6bXM0mmRWzYZ0Y8F+jUFWF/8BUdnbv/8RAafIkWLVMT0jdxMLQ==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.13",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512"
+    },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -482,6 +504,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
       "type": "package",

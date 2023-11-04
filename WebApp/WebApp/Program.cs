@@ -1,4 +1,7 @@
-﻿namespace WebApp;
+﻿using Microsoft.EntityFrameworkCore;
+using WebApp.DataModels;
+
+namespace WebApp;
 
 public class Program
 {
@@ -8,6 +11,11 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+
+        builder.Services.AddDbContext<MyDBContext>(options =>
+        {
+            options.UseSqlite(@"Data source=\Users\tihonsavenkov\Projects\Temp");
+        });
 
         var app = builder.Build();
 
