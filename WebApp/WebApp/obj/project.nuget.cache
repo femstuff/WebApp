@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Iu70XGVGXDPzbwYJ/iJ8WsYhMFzi0CzQQqTlY/Sk5Z45JEwRGGujEpJJwF45EhqX22660obbjl6PvkaTp7RLig==",
+  "dgSpecHash": "YoZ556Na+5z8HDVFReXEqIm1gBP+JnuZ7TO+m+C8aXIHsozoU2xSeNIIKnhTaFUN1X8cP2/9pUFZHbIXkxLqoQ==",
   "success": true,
   "projectFilePath": "/Users/tihonsavenkov/Projects/WebApp/WebApp/WebApp/WebApp.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/tihonsavenkov/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.13/microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
     "/Users/tihonsavenkov/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.13/microsoft.entityframeworkcore.sqlite.7.0.13.nupkg.sha512",
     "/Users/tihonsavenkov/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.13/microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512",
+    "/Users/tihonsavenkov/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.13/microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
     "/Users/tihonsavenkov/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/tihonsavenkov/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/tihonsavenkov/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
